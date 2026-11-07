@@ -1,0 +1,10 @@
+# List of bosses to track without showing victory messages
+# The system will only track damage and positions of these bosses
+tracked_bosses:
+  # You can list the MythicMobs IDs here
+  # Example:
+  # - Example_Boss
+  # - GIANT_BOSS
+  # - CUSTOM_BOSS
+  # Each ID must match exactly with the internal ID of the mob in MythicMobs
+  enabled_bosses: []

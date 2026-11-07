@@ -1,0 +1,54 @@
+bosses:
+  # Example boss configuration using message references
+  Example:
+    victory_message_id: DEFAULT_VICTORY
+    top_players_to_show: 3
+    position_format_id: DEFAULT
+    broadcast_message: true
+    personal_message_id: DEFAULT
+    non_participant_message_id: DEFAULT
+    hologram_enabled: false
+
+  # Example boss with epic formatting
+  EPIC_BOSS:
+    victory_message_id: BOSS_EPIC_VICTORY
+    top_players_to_show: 5
+    position_format_id: EPIC_BOSS
+    broadcast_message: true
+    personal_message_id: EPIC
+    non_participant_message_id: EPIC
+    hologram_enabled: true
+
+  # Example raid boss
+  RAID_BOSS:
+    victory_message_id: RAID_BOSS_VICTORY
+    top_players_to_show: 3
+    position_format_id: DEFAULT
+    broadcast_message: true
+    personal_message_id: DEFAULT
+    non_participant_message_id: DEFAULT
+    hologram_enabled: false
+
+  # Example no custom message boss
+  No_Custom_Message: []
+
+# Default configuration for bosses
+default_boss_config:
+  victory_message_id: DEFAULT_VICTORY
+  top_players_to_show: 3
+  position_format_id: DEFAULT
+  broadcast_message: true
+  personal_message_id: DEFAULT
+  non_participant_message_id: DEFAULT
+  hologram_enabled: false
+
+# Format for displaying damage values
+damage_format: "%.2f"
+percentage_format: "%.1f"
+
+# Configuration for tracking
+tracking_config:
+  # Should the tracking information be saved to a database?
+  # If false, the data will be cleared when the boss dies
+  # If true, the data will be stored on the database
+  persist_data: false

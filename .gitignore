@@ -1,0 +1,51 @@
+# Gradle, Kotlin and compiled output
+.gradle/
+.kotlin/
+build/
+out/
+bin/
+*.class
+
+# Keep the Gradle wrapper, including gradle/wrapper/gradle-wrapper.jar.
+
+# IDE settings and local project metadata
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+*.iml
+*.ipr
+*.iws
+
+# Local Minecraft servers and integration output
+/integration/paper-*/
+/integration/*-result.log
+/run/
+/logs/
+*.log
+*.log.gz
+
+# Runtime data and SQLite sidecar files
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Local environment overrides
+.env
+.env.*
+!.env.example
+local.properties
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+hs_err_pid*
+replay_pid*

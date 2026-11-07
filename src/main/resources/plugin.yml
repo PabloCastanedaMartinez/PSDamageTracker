@@ -1,0 +1,17 @@
+name: PSDamageTracker
+version: '${version}'
+author: ElPlatano0871
+main: com.elplatano0871.damageTracker.DamageTracker
+api-version: '1.19'
+depend: [MythicMobs]
+softdepend: [PlaceholderAPI, FancyHolograms]
+commands:
+  damagetracker:
+    description: Damage leaderboard and administration
+    usage: /damagetracker <reload|check>
+    aliases: [dtr]
+permissions:
+  damageTracker.reload:
+    default: op
+  damageTracker.check:
+    default: true
